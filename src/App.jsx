@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { CoinsContext } from "./context/coinsContext";
 import { getCoins } from "./api/api";
-
-import Main from "./pages/Main/Main";
 import Header from "./components/Header/header";
- 
+import Main from "./pages/Main/Main";
+
 function App() {
 
   const [balance, setBalance] = useState(35000);
