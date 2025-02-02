@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { CoinsContext } from "./context/coinsContext";
 import { getCoins } from "./api/api";
-import Header from "./components/Header/header";
+import Header from "./components/Header/Header";
 import Main from "./pages/Main/Main";
 
 function App() {
