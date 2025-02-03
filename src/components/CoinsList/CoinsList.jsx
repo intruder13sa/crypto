@@ -21,7 +21,7 @@ const CoinsList = () => {
                     </div>
                     <div className='coin-item__price'>
                         <p style={{color: coin.color}}>{(+coin.price).toFixed(2)} USD</p>
-                        <p style={{color: coin.color}}>{(+coin.price).toFixed(2)} BTC</p>
+                        <p style={{color: coin.color}}>{(+coin.btcPrice).toFixed(2)} BTC</p>
                     </div>
                 </li>
             })}
